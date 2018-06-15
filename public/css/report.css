@@ -1,0 +1,61 @@
+table tbody tr td {
+    font-size: 0.96em;
+}
+
+.parametro-relatorio {
+    font-size: 0.96em;
+    text-transform: none !important;
+}
+
+.report_data {
+    font-size: 0.96em;
+    text-transform: none !important;
+}
+
+.report_contacts {
+    float: left;
+    margin-right: 20px;
+}
+
+@media print {
+    #print-command-panel {
+        display: none;
+    } 
+    #btn-report-print {
+        display: none;
+    } 
+    #btn-report-print {
+        display: none;
+    } 
+}
+
+.report-subtitle-1 {
+    background-color: #d9edf7;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    color: #3e3f3a !important;
+    text-transform: none !important;
+    padding: 5px !important;
+    border-bottom: 1px solid #dfd7ca;
+}
+
+.report-content-title {
+    background-color: transparent;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    color: #3e3f3a !important;
+    text-transform: none !important;
+    padding: 5px !important;
+}
+
+.panel-body {
+    padding: 5px !important;
+}
+
+table thead tr td {
+    font-size: 12px;
+}
+
+table tbody tr td {
+    font-size: 12px;
+}
